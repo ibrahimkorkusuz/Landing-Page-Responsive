@@ -1,0 +1,312 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+
+
+.user {margin-top: 32px; left: -30px;}
+ul.icons {
+    display: flex;
+    list-style-type: none;
+	padding-inline-start: 0px;
+	line-height:2rem;
+}
+
+.float-right{margin-top:3px;}
+.topheader {margin-bottom: -15px !important;}
+/*--------------------------------------------------------------
+# MOBIL
+--------------------------------------------------------------*/
+
+@media (max-width: 768px){
+	
+.links {margin-top: 30px !important; margin-left: 70px !important;}
+.about {text-align: justify !important; padding: 0 !important;}
+.icofont-user-alt-7{font-size:25px !important;}
+
+#whyus {
+    padding: 5px !important;
+    padding-bottom: 50px !important;
+    font-size: 12px !important;
+    margin-top: 55px !important;
+}
+
+.float-right {text-align: center; margin-bottom: 13px;}
+ul.icons {display: inline-block;}
+.contact-info {
+    text-align: center;
+}
+
+.joinbtn {
+    float: right;
+    text-align: right;
+    margin-top: -50px;
+}
+
+#email{width:220px !important;}
+.textsub {margin-top:35px}
+}
+
+
+/*--------------------------------------------------------------
+# Tob Bar
+--------------------------------------------------------------*/
+
+.row {margin:0px;}
+
+#topbar {
+  background: #006cb7;
+  padding: 13px 0;
+  font-size: 14px;
+  color:white;
+}
+
+#topbar .contact-info .icofont-envelope{
+  vertical-align: sub;
+  color:white;  
+}
+
+#topbar .contact-info a{
+  color:white;
+  text-decoration:none;
+}
+
+#topbar .contact-info i {
+  padding: 4px;
+  font-size:25px;
+}
+
+#topbar .contact-info .icofont-phone {
+  padding-left: 20px;
+  margin-left: 10px;
+  vertical-align:sub;
+}
+
+#topbar .contact-info .icofont-wall-clock{
+  padding-left: 20px;
+  margin-left: 10px;
+  vertical-align: sub;
+}
+
+#topbar .right-menu a{
+  color: white;
+  padding: 4px 12px;
+  display: inline-block;
+  line-height: 1px;
+  transition: 0.3s;
+}
+
+#topbar .right-menu a:hover {
+  color: black;
+  text-decoration:none;
+}
+
+/*--------------------------------------------------------------
+# Navbar
+--------------------------------------------------------------*/
+
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {padding-right: 2rem;}
+
+}
+.icofont-navigation-menu{
+	border:2px solid #006cb7;
+	padding:5px;
+	color:#006cb7;
+	border-radius:5px;
+}
+
+.navbar-brand{
+	margin-right: auto;
+}
+
+.navbar-brand img{
+	width: 250px;
+}
+
+.nav-item a{
+	color: black;
+}
+
+.nav-item a:hover{
+	color: #006cb7;
+}
+
+.navbar {
+	border-bottom:4px solid #dcdcdc;
+	
+}
+
+
+/*--------------------------------------------------------------
+# Slider
+--------------------------------------------------------------*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*--------------------------------------------------------------
+# Why US
+--------------------------------------------------------------*/
+
+
+.whyus {	
+  position: relative;
+  bottom: 100px;
+  background:#006cb7;
+  clip-path: polygon(0 0, 100% 16%, 100% 75%, 13% 75%, 13% 86%, 8% 75%, 0% 75%);
+  border-radius:15px;
+}
+
+#whyus {	
+	padding:80px;
+	padding-bottom:100px;
+	color:white;
+}
+
+::placeholder{
+	color:white;
+	padding:5px;
+	font-size:12px;
+}
+
+#email {
+	border-radius:5px;
+	background-color:transparent;
+	border:2px solid #dcdcdc;
+	color:white;
+	width:230px;
+	height:35px;
+	margin-bottom:15px;
+}
+
+#join {
+	width:80px;
+	height:35px;
+	background:white;
+	border:2px solid white;
+	border-radius:10px;
+	margin-bottom:15px;
+}
+
+#whytext{
+	text-align:center;
+	color:gray;
+	margin-top:-125px;
+}
+
+#whytext h4{
+	font-weight:200;
+}
+
+
+/*--------------------------------------------------------------
+# PROCESS
+--------------------------------------------------------------*/
+.picon {
+	border-right:2px solid #dcdcdc;
+	
+}
+.process {
+	margin-top:55px;
+}
+
+.process i {
+	font-size:65px;
+	background-color:#006cb7;
+	padding:15px;
+	border-radius:100px;
+	color:white;
+}
+
+.detail {
+	margin-top:55px;
+	background-color:#dcdcdc;
+}
+
+.detail h4 {
+	padding:20px;
+}
+
+.detail i {
+	font-size:65px;
+	color:gray;
+	vertical-align:middle;
+}
+
+.blok {
+	background-color:gray;
+}
+
+/*--------------------------------------------------------------
+# TESTİMONİALS
+--------------------------------------------------------------*/
+
+.testimonials {
+	margin-top:55px;
+	padding-top:15px;
+	background-color:#006cb7;
+	color:white;
+	padding-bottom:80px;
+}
+
+.testimonials h2{
+	margin-top:25px;
+	text-align:center;
+	margin-bottom:55px;
+}
+
+.tsblok {
+	background:#0056a6;
+	padding:25px;
+}
+
+.icofont-user-alt-7{
+	font-size:35px;
+	background-color:#dcdcdc;
+	border-radius:85px;
+	padding:15px;
+	vertical-align:middle;
+	margin:2px;
+}
+
+/*--------------------------------------------------------------
+# FOOTER
+--------------------------------------------------------------*/
+
+.footer{
+	margin-top:55px;
+}
+
+.about{
+	padding-right:85px;
+}
+
+.about i{
+	padding:9px;
+	margin-top:25px;
+	font-size:35px;
+	color:white;
+	background-color:#006cb7;
+	border-radius:120px;
+}
+
+.footer ul {
+	list-style-type:none;
+}
+
+.copyright {
+	background-color:#dcdcdc;
+	padding:30px;
+}
+
+.copyright i{
+	font-size:23px;
+	padding-right:5px;
+}
